@@ -6,6 +6,6 @@
 1. git clone https://github.com/dnmtvf/hexlet-courses-boilerplate.git
 2. cd hexlet-courses-boilerplate
 3. yarn install (if you are not using yarn - npm install)
-4. npm run tdd (starts Jest environment in watch mode)
-5. Create file someName.test.js and someName.js in «src» folder
+4. Create file someName.test.js and someName.js in «src» folder
+5. npm run tdd -f someName.test.js (starts Jest in watch mode)
 6. Use TDD mantra — red: write a failing test and run it, green: make the test pass, and refactor: look at the code and see if you can make it any better
